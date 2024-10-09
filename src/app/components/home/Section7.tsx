@@ -1,10 +1,10 @@
 import React from 'react'
-import img from '../../assests/Group 406.png'
+import img from '../../assests/phone mockup & stand.png'
 import Image from 'next/image'
 import NotifyMeForm from './ui/NotifyMeForm'
 export default function Section7() {
   return (
-    <section className="bg-blueimg2">
+    <section className="bg-[#13A8DA]">
       <div className="max-w-[1327px] mx-auto p-4 py-10 text-white ">
       <div className="flex flex-col lg:flex-row items-center  mx-auto">
       <div className="w-full lg:w-1/2 p-4 ">

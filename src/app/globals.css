@@ -128,12 +128,7 @@ line-height: 28.18px;
   background-image: url(./assests/Group\ 385.png);
 }
 
-.bg-blueimg2{
 
-  background-image: url('./assests/Group\ 404\ \(1\).png');
-  background-repeat: no-repeat;
-    background-size: cover;
-}
 .popup-overlay{
   position: fixed;
   top: 0;
