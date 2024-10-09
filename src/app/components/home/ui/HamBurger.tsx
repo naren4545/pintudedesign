@@ -85,7 +85,7 @@ const Hamburger = () => {
               )}
             </button>
           </div>
-          <nav>
+          <nav className="pt-7">
             <SidebarItem  label="Home" linkTo="" />
             <SidebarItem  label="About Us" linkTo="" />
             <SidebarItem  label="How It Works" linkTo="" />
