@@ -50,13 +50,13 @@ const Hamburger = () => {
 
   return (
     <div className="flex  lg:hidden">
-      <div className="lg:hidden p-4 absolute z-30  top-[42%] transform -translate-y-1/2">
+      <div className="lg:hidden p-4 absolute z-30  top-[8%] transform -translate-y-1/2">
         <button
           onClick={toggleSidebar}
           className="text-black hover:text-white focus:outline-none focus:text-white"
         >
           {isOpen ? (
-            <FaTimes className="w-6 h-6 text-black absolute top-[-44px]" />
+            <FaTimes className="w-6 h-6 text-black absolute top-[-4px]" />
           ) : (
             <FaBars className="w-6 h-6 text-black" />
           )}

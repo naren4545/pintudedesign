@@ -5,12 +5,12 @@ function Logo() {
     <>
       <svg
         id="Layer_1"
-        className="top-0 p-3 lg:left-0 left-[50%] transform -translate-x-1/2 lg:-translate-x-0"
+        className="top-0 p-3 lg:left-0 left-[50%] lg:h-[130px] h-[87px]  transform -translate-x-1/2 lg:-translate-x-0"
         style={{
           position: "absolute",
           
          
-          height: "130px",
+         
         }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 616.665 227.5057"

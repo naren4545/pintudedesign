@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
   return (
-    <header className='relative'>
+    <header className=''>
 
         <div className='max-w-[1340px] mx-auto'>
         <Hamburger/>
