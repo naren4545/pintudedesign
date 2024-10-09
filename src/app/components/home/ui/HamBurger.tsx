@@ -50,7 +50,7 @@ const Hamburger = () => {
 
   return (
     <div className="flex  lg:hidden">
-      <div className="lg:hidden p-4 absolute z-30  top-[8%] transform -translate-y-1/2">
+      <div className="lg:hidden p-4 absolute z-30  top-[50px] transform -translate-y-1/2">
         <button
           onClick={toggleSidebar}
           className="text-black hover:text-white focus:outline-none focus:text-white"
