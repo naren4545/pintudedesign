@@ -152,7 +152,7 @@ customers in their local area.</p>
 
 </a>
 
-<a href='https://www.linkedin.com/company/pintude/about/' target='_blank' className='mr-3'><svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<a href='https://www.instagram.com/?url=https://hellopintude.com?utm_source=instagram&utm_medium=social&utm_campaign=pre_launch' target='_blank' className='mr-3'><svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_3025_1295)">
 <circle cx="27" cy="27" r="20" fill="#13A8DA"/>
 </g>
