@@ -43,7 +43,7 @@ const Navbar = () => {
         <a href="#" className="text-xl hover:text-gray-700">Pricing</a>
 </div>
         <div className='ml-3 hidden lg:block lg:text-right lg:w-[20%] w-full'> 
-          <div className='h-[44px]'>
+          <div className='h-[46px]'>
         <a    onClick={handleClick}
                 onTouchStart={handleClick}  
          href="tel:+91 82373 58619"
