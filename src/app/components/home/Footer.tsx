@@ -29,7 +29,7 @@ export default function Footer() {
 {/* <NewsletterSection/> */}
 
 
-<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start md:grid-cols-7 gap-8 mt-10">
+<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start lg:grid-cols-7 gap-8 mt-10">
           
           <div className=" md:col-span-3 relative top-[12px]   ">
             <div className='relative'>
