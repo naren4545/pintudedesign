@@ -29,9 +29,9 @@ export default function Footer() {
 {/* <NewsletterSection/> */}
 
 
-<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start md:grid-cols-5 gap-8 mt-10">
+<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start md:grid-cols-7 gap-8 mt-10">
           
-          <div className=" md:col-span-2 relative top-[12px]   ">
+          <div className=" md:col-span-3 relative top-[12px]   ">
             <div className='relative'>
            
 
@@ -86,8 +86,9 @@ customers in their local area.</p>
           </div>
           
           
-          <div className='text-center lg:text-left'>
-
+          <div className='text-center lg:text-left lg:col-span-2 '>
+          <h3 className=" text-xl font-semibold  mb-5">Follow Us:</h3>
+<div className='flex'>
 <a href='https://www.linkedin.com/company/pintude/about/' target='_blank' className='mr-3'><svg className='inline' width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_2850_1509)">
 <circle cx="27" cy="27" r="20" fill="#13A8DA"/>
@@ -150,6 +151,29 @@ customers in their local area.</p>
 </svg>
 
 </a>
+
+<a href='https://www.linkedin.com/company/pintude/about/' target='_blank' className='mr-3'><svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_3025_1295)">
+<circle cx="27" cy="27" r="20" fill="#13A8DA"/>
+</g>
+<path d="M26.9192 23.1338C24.8279 23.1338 23.1213 24.8404 23.1213 26.9317C23.1213 29.023 24.8279 30.7297 26.9192 30.7297C29.0104 30.7297 30.717 29.023 30.717 26.9317C30.717 24.8404 29.0104 23.1338 26.9192 23.1338ZM38.31 26.9317C38.31 25.359 38.3242 23.8005 38.2359 22.2306C38.1476 20.4071 37.7316 18.7888 36.3982 17.4554C35.062 16.1191 33.4465 15.706 31.6231 15.6177C30.0504 15.5293 28.4919 15.5436 26.922 15.5436C25.3493 15.5436 23.7908 15.5293 22.221 15.6177C20.3975 15.706 18.7792 16.122 17.4458 17.4554C16.1096 18.7916 15.6965 20.4071 15.6081 22.2306C15.5198 23.8033 15.5341 25.3618 15.5341 26.9317C15.5341 28.5016 15.5198 30.063 15.6081 31.6329C15.6965 33.4564 16.1124 35.0747 17.4458 36.4081C18.7821 37.7444 20.3975 38.1575 22.221 38.2458C23.7937 38.3342 25.3521 38.3199 26.922 38.3199C28.4947 38.3199 30.0532 38.3342 31.6231 38.2458C33.4465 38.1575 35.0648 37.7415 36.3982 36.4081C37.7344 35.0719 38.1476 33.4564 38.2359 31.6329C38.3271 30.063 38.31 28.5045 38.31 26.9317ZM26.9192 32.7754C23.6854 32.7754 21.0756 30.1656 21.0756 26.9317C21.0756 23.6979 23.6854 21.0881 26.9192 21.0881C30.1529 21.0881 32.7627 23.6979 32.7627 26.9317C32.7627 30.1656 30.1529 32.7754 26.9192 32.7754ZM33.0021 22.2135C32.247 22.2135 31.6373 21.6038 31.6373 20.8487C31.6373 20.0937 32.247 19.484 33.0021 19.484C33.7571 19.484 34.3668 20.0937 34.3668 20.8487C34.367 21.028 34.3319 21.2056 34.2634 21.3713C34.1949 21.537 34.0943 21.6875 33.9676 21.8143C33.8408 21.9411 33.6903 22.0416 33.5246 22.1101C33.3589 22.1786 33.1813 22.2137 33.0021 22.2135Z" fill="white"/>
+<defs>
+<filter id="filter0_d_3025_1295" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_3025_1295"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3025_1295"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3025_1295" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+</a>
+</div>
 </div>
 
         </div>

@@ -6,6 +6,7 @@ export default function Section7() {
   return (
     <section className="bg-[#13A8DA]">
       <div className="max-w-[1327px] mx-auto p-4 py-10 text-white ">
+        <h2 className='text-center text-5xl font-bold'>Get Ready for Our Mobile Apps!</h2>
       <div className="flex flex-col lg:flex-row items-center  mx-auto">
       <div className="w-full lg:w-1/2 p-4 ">
 <Image src={img} alt="iphone"/>
