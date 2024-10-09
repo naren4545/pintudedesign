@@ -36,7 +36,7 @@ export default function Section5() {
     <p className='text-3xl font-normal text-[#00435A]' >Phone number<br>
     </br>
     <a href="tel:+91 82373 58619" className='text-2xl lg:hidden inline font-semibold text-white'>+91 82373 58619</a>
-<PopUPButton className='text-2xl hidden lg:inline  font-semibold text-white'>+91 82373 58619</PopUPButton>
+<PopUPButton className='text-2xl cursor-pointer hidden lg:inline  font-semibold text-white'>+91 82373 58619</PopUPButton>
     </p>
     </div>
 
