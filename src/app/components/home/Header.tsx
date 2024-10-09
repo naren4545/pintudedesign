@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* Logo Section */}
     
 
-      <div className="lg:w-[25%] flex h-[146px]  items-center justify-center lg:justify-start w-full space-x-2  relative">
+      <div className="lg:w-[25%] flex h-[146px]  items-end justify-center lg:justify-start w-full space-x-2  relative">
         <Image src={logo} alt="Pintude Logo" className="hidden" /> {/* Replace with your logo */}
         <Logo/>
       </div>
@@ -43,6 +43,7 @@ const Navbar = () => {
         <a href="#" className="text-xl hover:text-gray-700">Pricing</a>
 </div>
         <div className='ml-3 hidden lg:block lg:text-right lg:w-[20%] w-full'> 
+          <div className='h-[44px]'>
         <a    onClick={handleClick}
                 onTouchStart={handleClick}  
          href="tel:+91 82373 58619"
@@ -50,6 +51,7 @@ const Navbar = () => {
         >
         Business Login
         </a>
+        </div>
       </div>
      
 
