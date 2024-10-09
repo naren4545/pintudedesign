@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assests/iPhone 16 Pro mockup natural titanium.png'
+import img from '../../assests/Group 406.png'
 import Image from 'next/image'
 import NotifyMeForm from './ui/NotifyMeForm'
 export default function Section7() {

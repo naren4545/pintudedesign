@@ -5,8 +5,9 @@ const NotifyMeForm = () => {
     <div className="flex flex-col items-center justify-center">
     
       <input 
-        type="email" 
-        placeholder="Enter your Email ID..." 
+        type="tel"
+        pattern="[0-9]{10}"
+        placeholder="Enter your Contact number..."
         className="w-full  max-w-[680px] mx-auto pr-3 pl-5 py-5 mb-4 rounded-lg border border-gray-300 shadow-lg placeholder-gray-500 focus:outline-none"
       />
 

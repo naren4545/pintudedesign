@@ -16,8 +16,9 @@ const InquiryForm = () => {
         </div>
         <div className="mb-4">
           <input
-            type="email"
-            placeholder="Email Address"
+           type="tel"
+            pattern="[0-9]{10}"
+            placeholder="Contact Number"
             className="w-full p-3 bg-[#F1F8FA] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder:text-black"
           />
         </div>

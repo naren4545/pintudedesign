@@ -23,7 +23,20 @@ body {
 .font-m{
   font-family: "Merriweather", serif;
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+
+}
 .font-r{
   font-family: "Raleway", sans-serif;
 }
@@ -118,6 +131,8 @@ line-height: 28.18px;
 .bg-blueimg2{
 
   background-image: url('./assests/Group\ 404\ \(1\).png');
+  background-repeat: no-repeat;
+    background-size: cover;
 }
 .popup-overlay{
   position: fixed;
@@ -130,5 +145,13 @@ line-height: 28.18px;
   align-items: center;
   justify-content: center;
   z-index: 1000;
+
+}
+
+@media screen and (max-width: 63.9375em) {
+
+ .hero-sec {
+  background: linear-gradient(180deg, #FFFFFF 82.34%, #13A8DA 107%)!important;
+}
 
 }

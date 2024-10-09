@@ -29,9 +29,9 @@ export default function Footer() {
 {/* <NewsletterSection/> */}
 
 
-<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start md:grid-cols-4 gap-8 mt-10">
+<div className="grid grid-cols-1 place-items-center px-4 pt-5 lg:place-items-start md:grid-cols-5 gap-8 mt-10">
           
-          <div className=" md:col-span-1 relative top-[12px]   ">
+          <div className=" md:col-span-2 relative top-[12px]   ">
             <div className='relative'>
            
 
@@ -39,9 +39,56 @@ export default function Footer() {
 <p className='pb-3 max-w-[368px] mx-auto lg:mx-0'>our mission is to help businesses establish an 
 effortless online presence and connect with 
 customers in their local area.</p>
-<div className='text-center lg:text-left'>
 
-    <a href='https://www.linkedin.com/company/pintude/about/' target='_blank' className='mr-3'><svg className='inline' width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+</div>
+
+
+          </div>
+
+          
+          
+
+         
+          <div className='max-w-[200px] w-full'>
+          <h3 className=" text-xl font-semibold  mb-5">Quick Links</h3>
+            <ul className="space-y-1 text-base font-light footer-ul">
+              <li>
+                <a href="#" className=" ">About</a>
+              </li>
+              <li>
+                <a href="#" className=" ">How It Works</a>
+              </li>
+              <li>
+                <a href="#" className=" ">Pricing</a>
+              </li>
+              <li>
+                <a href="#" className=" ">Contact </a>
+              </li>
+            </ul>
+          </div>
+
+         
+          <div className='max-w-[200px] w-full '>
+            <h3 className=" text-xl font-semibold  mb-5">Resources</h3>
+            <ul className="space-y-1 text-base font-light footer-ul">
+              <li>
+                <a href="#" className=" ">Support</a>
+              </li>
+              <li>
+                <a href="#" className=" ">Careers</a>
+              </li>
+              <li>
+                <a href="#" className=" ">Security</a>
+              </li>
+            </ul>
+          </div>
+          
+          
+          <div className='text-center lg:text-left'>
+
+<a href='https://www.linkedin.com/company/pintude/about/' target='_blank' className='mr-3'><svg className='inline' width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_2850_1509)">
 <circle cx="27" cy="27" r="20" fill="#13A8DA"/>
 </g>
@@ -104,53 +151,6 @@ customers in their local area.</p>
 
 </a>
 </div>
-
-
-</div>
-
-
-          </div>
-
-          <div></div>
-          
-
-         
-          <div className='max-w-[200px] w-full'>
-          <h3 className=" text-xl font-semibold  mb-5">Quick Links</h3>
-            <ul className="space-y-1 text-base font-light footer-ul">
-              <li>
-                <a href="#" className=" ">About</a>
-              </li>
-              <li>
-                <a href="#" className=" ">How It Works</a>
-              </li>
-              <li>
-                <a href="#" className=" ">Pricing</a>
-              </li>
-              <li>
-                <a href="#" className=" ">Contact </a>
-              </li>
-            </ul>
-          </div>
-
-         
-          <div className='max-w-[200px] w-full '>
-            <h3 className=" text-xl font-semibold  mb-5">Resources</h3>
-            <ul className="space-y-1 text-base font-light footer-ul">
-              <li>
-                <a href="#" className=" ">Support</a>
-              </li>
-              <li>
-                <a href="#" className=" ">Careers</a>
-              </li>
-              <li>
-                <a href="#" className=" ">Security</a>
-              </li>
-            </ul>
-          </div>
-          
-          
-
 
         </div>
 <div>
