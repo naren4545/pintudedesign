@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Section4() {
   return (
-    <section className="">
+    <section id='pricing' className="">
       <div className="max-w-[1327px] mx-auto p-4 py-10 ">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 place-items-center relative z-20">
   <div className="col-span-1 lg:col-span-3 p-4 bg-white">

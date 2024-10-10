@@ -38,9 +38,9 @@ const Navbar = () => {
       {/* Links Section */}
       <div className="lg:flex hidden justify-center lg:w-[55%] w-full space-x-6 text-black text-sm lg:mt-0 mt-9 ">
       <a href="/" className=   " text-xl hover:text-gray-700 border-b-2 border-[#F6830E]">Home</a>
-        <a href="#" className="text-xl hover:text-gray-700">About us</a>
-        <a href="#" className="text-xl hover:text-gray-700">How It Works</a> 
-        <a href="#" className="text-xl hover:text-gray-700">Pricing</a>
+        <a href="#about" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">About us</a>
+        <a href="#howitwork" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">How It Works</a> 
+        <a href="#pricing" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">Pricing</a>
 </div>
         <div className='ml-3 hidden lg:block lg:text-right lg:w-[20%] w-full'> 
           <div className='h-[46px]'>

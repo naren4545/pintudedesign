@@ -6,7 +6,7 @@ import icon3 from '../../assests/icon3.png'
 import icon4 from '../../assests/icon4.png'
 export default function Section2() {
   return (
-    <section className='bg-gradient-to-b from-[#13A8DA] to-[#ffffff] via-[#13A8DA] '>
+    <section id='howitwork' className='bg-gradient-to-b from-[#13A8DA] to-[#ffffff] via-[#13A8DA] '>
       <div className="max-w-[1327px] mx-auto p-4 py-10 ">
 
         <div className='text-center font-m text-white max-w-[825px] mx-auto'>

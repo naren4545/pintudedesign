@@ -18,16 +18,17 @@ import { usePathname } from "next/navigation";
 // SidebarItem component with proper TypeScript props
 interface SidebarItemProps {
   label: string;
-  linkTo: string; // Corrected from 'linlTo'
+  linkTo: string;
+  onclick:()=>void; // Corrected from 'linlTo'
 }
 
-const SidebarItem = ({  label, linkTo }: SidebarItemProps) => {
+const SidebarItem = ({  label, linkTo, onclick }: SidebarItemProps) => {
   const pathname = usePathname();
   const isActive = pathname === linkTo;
   const style = isActive ? " bg-gray-200 text-black" : "";
 
   return (
-    <Link href={linkTo}>
+    <Link href={linkTo} onClick={onclick}>
       <div
         className={
           "flex items-center space-x-3 cursor-pointer hover:bg-gray-200 hover:text-black rounded-lg p-3" +
@@ -86,10 +87,10 @@ const Hamburger = () => {
             </button>
           </div>
           <nav className="pt-7">
-            <SidebarItem  label="Home" linkTo="" />
-            <SidebarItem  label="About Us" linkTo="" />
-            <SidebarItem  label="How It Works" linkTo="" />
-            <SidebarItem  label="Pricing" linkTo="" />
+            <SidebarItem onclick={toggleSidebar}  label="Home" linkTo="" />
+            <SidebarItem onclick={toggleSidebar} label="About Us" linkTo="#about" />
+            <SidebarItem onclick={toggleSidebar} label="How It Works" linkTo="#howitwork" />
+            <SidebarItem onclick={toggleSidebar} label="Pricing" linkTo="#pricing" />
           <div className="pt-5"> <a href="tel:+91 82373 58619" className=" mt-5 text-xl bg-[#13A8DA] text-white px-6 py-4 rounded-[41px] hover:bg-gray-100 transition-colors">Business Login</a></div>  
           </nav>
         </div>
