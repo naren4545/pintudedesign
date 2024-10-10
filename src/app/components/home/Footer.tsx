@@ -36,7 +36,7 @@ export default function Footer() {
            
 
             <FooterLogo/>
-<p className='pb-3 max-w-[368px] mx-auto lg:mx-0'>our mission is to help businesses establish an 
+<p className='pb-3 max-w-[368px] mx-auto lg:mx-0 '>our mission is to help businesses establish an 
 effortless online presence and connect with 
 customers in their local area.</p>
 
@@ -186,8 +186,8 @@ customers in their local area.</p>
       <div className=' bg-[#13A8DA] text-white'>
       <div className="py-6 flex items-center flex-col md:flex-row justify-between max-w-[1327px] mx-auto px-4 ">
 
-<p className='text-base'>Copyright © 2024 Pintude, All Rights Reserved.</p>
-                <p className='text-base'>Terms | Privacy</p>
+<p className='text-base mb-0'>Copyright © 2024 Pintude, All Rights Reserved.</p>
+                <p className='text-base mb-0'>Terms | Privacy</p>
               </div>
               </div>
     </footer>
