@@ -33,7 +33,7 @@ export default function Section5() {
 </defs>
 </svg>
 </p>
-    <p className='text-3xl font-normal text-[#00435A]' >Phone number<br>
+    <p className='text-3xl font-normal text-black' >Phone number<br>
     </br>
     <a href="tel:+91 82373 58619" className='text-2xl lg:hidden inline font-semibold text-white'>+91 82373 58619</a>
 <PopUPButton className='text-2xl cursor-pointer hidden lg:inline  font-semibold text-white'>+91 82373 58619</PopUPButton>
@@ -61,7 +61,7 @@ export default function Section5() {
 </svg>
 
 </p>
-    <p className='text-3xl font-normal text-[#00435A]' >Email Address
+    <p className='text-3xl font-normal text-black' >Email Address
      <br>
     </br>
     <a href='mailto:social@pintude.co.in' className='text-2xl font-semibold text-white'>social@pintude.co.in</a>
