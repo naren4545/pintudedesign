@@ -5,9 +5,9 @@ import img1 from '../../../assests/Group 39.svg'
 import img2 from '../../../assests/Group 33.svg'
 import img3 from '../../../assests/Group 34.svg'
 import img4 from '../../../assests/Group 35.png'
-import img5 from '../../../assests/Group 36.png'
-import img6 from '../../../assests/Group 37.png'
-import img7 from '../../../assests/Group 38.png'
+import img5 from '../../../assests/Group 36.svg'
+import img6 from '../../../assests/Group 37.svg'
+import img7 from '../../../assests/Group 38.svg'
 import Image from 'next/image';
 const HeroSlider: React.FC = () => {
   const images = [
