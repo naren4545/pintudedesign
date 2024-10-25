@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import hero from '../../assests/Group 373.png'
-import icons from '../../assests/Frame 1.png'
+import hero from '../../assests/heroImgp3.png'
+
 import HeroSlider from './ui/HeroSlider'
+
+import style from "./CustomBullet.module.css"
 export default function HeroSection() {
   return (
     <section  style={{
         background: "linear-gradient(180deg, #FFFFFF 8.34%, #13A8DA 100%)"
-      }} className='hero-sec'>
+      }} className={style.herosec}>
         <div className='max-w-[1327px] mx-auto p-4 '>
 <div className='flex flex-col lg:flex-row'>
 

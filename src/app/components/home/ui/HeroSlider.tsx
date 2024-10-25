@@ -1,14 +1,15 @@
 
 
 import React from 'react';
-import img1 from '../../../assests/Group 39.svg'
-import img2 from '../../../assests/Group 33.svg'
-import img3 from '../../../assests/Group 34.svg'
-import img4 from '../../../assests/Group 35.png'
-import img5 from '../../../assests/Group 36.svg'
-import img6 from '../../../assests/Group 37.svg'
-import img7 from '../../../assests/Group 38.svg'
+import img1 from '../../../assests/Features.svg'
+import img2 from '../../../assests/Events.svg'
+import img3 from '../../../assests/Offers.svg'
+import img4 from '../../../assests/Collaborations.svg'
+import img5 from '../../../assests/Promotions.svg'
+import img6 from '../../../assests/Announcements.svg'
+import img7 from '../../../assests/Services.svg'
 import Image from 'next/image';
+import style  from './HeroSlider.module.css';
 const HeroSlider: React.FC = () => {
   const images = [
     img1,
@@ -23,7 +24,7 @@ const HeroSlider: React.FC = () => {
   return (
     <div className="relative overflow-hidden w-full max-w-[1200px] mx-auto">
      
-      <div className={"flex w-[calc(300px*14)] items-end animate-marquee pt-10"}>
+      <div className={`flex w-[calc(300px*14)] items-end ${style.animatemarquee} pt-10`}>
      
 
         {/* Double the array to create a seamless loop */}

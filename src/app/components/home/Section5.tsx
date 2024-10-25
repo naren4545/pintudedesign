@@ -1,10 +1,10 @@
 import React from 'react'
 import InquiryForm from './ui/InquiryForm '
 import PopUPButton from './ui/PopUPButton'
-
+import style from "./CustomBullet.module.css"
 export default function Section5() {
   return (
-    <section className="bg-blueimg">
+    <section className={style.bgblueimg}>
       <div className="max-w-[1327px] mx-auto p-4 py-10 text-white ">
       <h2 className='text-5xl font-bold text-center'>Get in Touch with Us!</h2>
       <p className='max-w-[900px] mx-auto text-center pb-10'>Have questions or need assistance? We're here to help! Reach out to us for 

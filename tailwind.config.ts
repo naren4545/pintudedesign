@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        m: ['"Merriweather"', 'serif'], // .font-m
+        r: ['"Raleway"', 'sans-serif'], // .font-r
+      },
     },
   },
   plugins: [],

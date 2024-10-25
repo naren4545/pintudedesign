@@ -1,0 +1,82 @@
+.custombullet p::before {
+    content: "";
+    background-image: url('../../assests/bulletAroowd3.svg');
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 25px; /* Updated width */
+    height: 25px; /* Updated height */
+  }
+  
+  
+  
+  .custombullet p {
+    position: relative;
+    margin-left: 35px;
+   
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.18px;
+  
+  
+  }
+  
+ 
+  .custombullet1 p {
+    position: relative;
+    margin-left: 35px;
+   
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.18px;
+  
+  
+  }
+  
+  .custombullet1 p::before {
+    content: "";
+    background-image: url('../../assests/customBullet1p3.svg');
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 20px; 
+    height: 20px;  
+  }
+  
+.custombullet2 p {
+    position: relative;
+    margin-left: 25px;
+   
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.18px;
+  
+  
+  }
+  
+  .custombullet2 p::before {
+    content: "";
+    background-image: url('../../assests/custombullet3p3.svg');
+    position: absolute;
+    left: -28px;
+    top: 8px;
+    width: 14px; /* Updated width */
+    height: 14px; /* Updated height */
+  }
+
+
+  .bgblueimg{
+
+    background-image: url('../../assests/bluebgp3.png');
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 63.9375em) {
+  
+   .herosec {
+    background: linear-gradient(180deg, #FFFFFF 82.34%, #13A8DA 107%)!important;
+  }
+  
+  }

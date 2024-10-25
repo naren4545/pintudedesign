@@ -1,6 +1,7 @@
 import React from "react";
-import img from '../../assests/Group 375.png'
+import img from '../../assests/aboutImgp3.png'
 import Image from "next/image";
+import style from './CustomBullet.module.css'
 export default function Section1() {
   return (
     <section id="about">
@@ -20,7 +21,7 @@ and expertise without needing technical skills or a large budget.</p>
 <h2 className="font-r font-extrabold text-3xl text-[#E78B01] pb-6">Our Core Values:</h2>
 
 
-<div className="custom-bullet font-r">
+<div className={`${style.custombullet} font-r`}>
 <p>We believe in making technology accessible and easy to use.</p>
 <p>A one-time fee makes our platform cost-effective for all businesses.</p>
 <p>Helping businesses reach the customers in their community.</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import style from './CustomBullet.module.css'
 export default function Section4() {
   return (
     <section id='pricing' className="">
@@ -9,7 +9,7 @@ export default function Section4() {
 
   <h2 className="text-5xl font-bold ">Our Pricing</h2>
   <span className="w-[348px] h-[2px] bg-[#F6830E] inline-block my-4"></span>
-  <div className="custom-bullet1 font-medium">
+  <div className={`${style.custombullet1} font-medium`}>
 <p>For this minimal investment, you can take your business digital, establish a strong online presence, and attract more customers. </p>
 <p>The benefits far outweigh the cost, making it an excellent value for businesses looking to expand their reach in the digital space.</p>
 
@@ -22,7 +22,7 @@ export default function Section4() {
      <p className='text-8xl font-bold'>₹500</p>
      <p className='text-2xl text-right'>a year</p>
      </div>
-     <div className="custom-bullet2 font-medium max-w-[345px] max-auto">
+     <div className={"custom-bullet2 font-medium max-w-[345px] max-auto "+ style.custombullet2}>
 <p>Simple, Transparent Pricing 
 for Every Business </p>
 <p>Get listed today, enjoy all the benefits of our platform with one simple, affordable subscription.</p>
@@ -31,7 +31,7 @@ for Every Business </p>
 <div className='pt-5 text-center'>
 
 <a href="" className="mx-auto text-2xl font-bold text-white shadow-lg bg-[#E78B01] py-6 px-6 ">Signup Now</a>
-<div className='blue-box'></div>
+<div className=' absolute w-[99%] border-[10px] border-[#94E2FD] h-[87%] top-[23px] left-0 z-[-10] rounded-[20px]'></div>
 </div>
 </div>
     </div>
