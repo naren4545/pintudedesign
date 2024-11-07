@@ -28,9 +28,9 @@ const HeroSlider: React.FC = () => {
      
 
         {/* Double the array to create a seamless loop */}
-        {[...images, ...images].map((image, index) => (
+        {[...images, ...images,...images].map((image, index) => (
           <div key={index} className="flex-shrink-0 w-auto h-[147px] p-4">
-            <Image src={image} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
+            <Image src={image} alt={`Image ${index + 1}`} className="w-full  h-full object-cover" />
           </div>
         ))}
       </div>

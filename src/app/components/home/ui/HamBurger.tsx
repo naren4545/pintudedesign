@@ -90,7 +90,10 @@ const Hamburger = () => {
             <SidebarItem onclick={toggleSidebar}  label="Home" linkTo="" />
             <SidebarItem onclick={toggleSidebar} label="About Us" linkTo="#about" />
             <SidebarItem onclick={toggleSidebar} label="How It Works" linkTo="#howitwork" />
+           
             <SidebarItem onclick={toggleSidebar} label="Pricing" linkTo="#pricing" />
+            <SidebarItem onclick={toggleSidebar} label="FAQ" linkTo="#faq" />
+
           <div className="pt-5"> <a href="tel:+91 82373 58619" className=" mt-5 text-xl bg-[#13A8DA] text-white px-6 py-4 rounded-[41px] hover:bg-gray-100 transition-colors">Business Login</a></div>  
           </nav>
         </div>

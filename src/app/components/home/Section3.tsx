@@ -7,7 +7,7 @@ export default function Section3() {
       <div className="max-w-[1327px] mx-auto p-4 py-10 ">
         <div className="text-center  max-w-[825px] mx-auto">
           <h2 className="text-5xl font-bold ">Why Choose Pintude?</h2>
-          <span className="w-[348px] h-[2px] bg-[#F6830E] inline-block my-4"></span>
+          <span className="w-[348px] h-[4px] bg-[#F6830E] inline-block my-4"></span>
           <p className="font-m text-2xl font-light">
             At Pintude, we are dedicated to helping local businesses thrive by
             offering a platform that connects you with nearby customers.

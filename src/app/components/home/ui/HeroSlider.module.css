@@ -11,4 +11,23 @@
     display: flex;
     animation: marquee 20s linear infinite;
   
+  }/* HeroSlider.module.css */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
   }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animatemarquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.animatemarquee:hover {
+  animation-play-state: paused;
+}

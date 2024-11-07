@@ -1,44 +1,75 @@
-import React from 'react'
-import style from './CustomBullet.module.css'
+import React from "react";
+import style from "./CustomBullet.module.css";
 export default function Section4() {
   return (
-    <section id='pricing' className="">
-      <div className="max-w-[1327px] mx-auto p-4 py-10 ">
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 place-items-center relative z-20">
-  <div className="col-span-1 lg:col-span-3 p-4 bg-white">
+    <section id="pricing" className="py-10">
+      <div className=" bg-[#13A8DA] text-white py-10">
+        <div className="max-w-[1327px] mx-auto">
+          <h2 className="text-[40px] font-m font-bold text-center">
+            Our Pricing
+          </h2>
+          <div className="text-center">
+            {" "}
+            <span className="w-[348px] h-[2px] bg-[#F6830E] mx-auto inline-block my-4"></span>
+          </div>
 
-  <h2 className="text-5xl font-bold ">Our Pricing</h2>
-  <span className="w-[348px] h-[2px] bg-[#F6830E] inline-block my-4"></span>
-  <div className={`${style.custombullet1} font-medium`}>
-<p>For this minimal investment, you can take your business digital, establish a strong online presence, and attract more customers. </p>
-<p>The benefits far outweigh the cost, making it an excellent value for businesses looking to expand their reach in the digital space.</p>
+          <p className="text-2xl max-w-[928px] mx-auto font-m font-light text-center">
+            The benefits of going digital with Pintude provide excellent value,
+            empowering businesses to grow and succeed in the digital space.
+          </p>
+          <div className={`${style.custombullet1} flex  flex-col px-3 md:flex-row gap-7 font-medium py-7`}>
+            <p>
+              For this minimal investment, you can take your business digital,
+              establish a strong online presence, and attract more customers.{" "}
+            </p>
+            <p>
+              The benefits far outweigh the cost, making it an excellent value
+              for businesses looking to expand their reach in the digital space.
+            </p>
+          </div>
+        </div>
+       
+      </div>
 
-</div>
-  </div>
-  <div className="col-span-1 lg:col-span-2  p-4">
-    <div className='p-6 py-14 max-w-[480px] rounded-xl  bg-white shadow-2xl'>
-   <div className='max-w-[256px] mx-auto'>
-    <p className='text-2xl'>For just</p>
-     <p className='text-8xl font-bold'>₹500</p>
-     <p className='text-2xl text-right'>a year</p>
-     </div>
-     <div className={"custom-bullet2 font-medium max-w-[345px] max-auto "+ style.custombullet2}>
-<p>Simple, Transparent Pricing 
-for Every Business </p>
-<p>Get listed today, enjoy all the benefits of our platform with one simple, affordable subscription.</p>
+      <div className=" bg-white text-black py-10">
+        <div className="max-w-[1327px] mx-auto p-4">
+          <div className="max-w-[1068px] mx-auto shadow-xl bg-white py-10 px-7 mt-[-79px] rounded-xl">
+            <div className="grid md:grid-cols-2 gap-5 max-w-[906px] mx-auto py-10">
+              <div className="max-w-[246px]">
+              <p className="text-2xl">For just</p>
+                <p className="text-8xl font-bold">₹500</p>
+                <p className="text-2xl text-right">a year</p>
+              
+                <div className="pt-9 text-center">
+                  <a
+                    href=""
+                    className="mx-auto text-2xl font-bold shadow-[0_8px_15px_rgba(234,152,15,0.3)]  text-white  bg-[#E78B01] py-6 px-8 "
+                  >
+                    Signup Now
+                  </a>
+                  </div>
+              </div>
+              <div className="md:pt-0 pt-10"><div
+                className={
+                  "custom-bullet2 font-medium max-w-[345px] max-auto " +
+                  style.custombullet2
+                }
+              >
+                <p>Simple, Transparent Pricing for Every Business </p>
+                <p>
+                  Get listed today, enjoy all the benefits of our platform with
+                  one simple, affordable subscription.
+                </p>
+                <p>We accept UPI payments, ensuring 
+a quick and hassle-free transaction 
+process.</p>
 
-
-<div className='pt-5 text-center'>
-
-<a href="" className="mx-auto text-2xl font-bold text-white shadow-lg bg-[#E78B01] py-6 px-6 ">Signup Now</a>
-<div className=' absolute w-[99%] border-[10px] border-[#94E2FD] h-[87%] top-[23px] left-0 z-[-10] rounded-[20px]'></div>
-</div>
-</div>
-    </div>
-  </div>
-  
-</div>
-    </div>
+               
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }

@@ -6,7 +6,10 @@ import icon3 from '../../assests/icon3.png'
 import icon4 from '../../assests/icon4.png'
 export default function Section2() {
   return (
-    <section id='howitwork' className='bg-gradient-to-b from-[#13A8DA] to-[#ffffff] via-[#13A8DA] '>
+    <section id='howitwork' className='relative'>
+ <div className="h-1/2 bg-[#13A8DA] w-full absolute top-0 left-0 -z-10"></div>
+ <div className="h-1/2 bg-white w-full absolute bottom-0 left-0 -z-10"></div>
+      
       <div className="max-w-[1327px] mx-auto p-4 py-10 ">
 
         <div className='text-center font-m text-white max-w-[825px] mx-auto'>
@@ -41,7 +44,7 @@ Follow these simple steps to start building your online presence today!</p>
 </svg>
 </span>
 
-<h3 className='font-r text-[28px] font-bold text-[#13A8DA]'>sign Up</h3>
+<h3 className='font-r text-[28px] font-bold text-[#13A8DA]'>Sign Up</h3>
 <p className='font-r text-2xl font-medium text-[#F6830E]'>Create your account 
 and fill out your 
 business details.</p>

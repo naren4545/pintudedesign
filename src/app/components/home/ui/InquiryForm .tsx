@@ -32,7 +32,7 @@ const InquiryForm = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="p-5 bg-orange-500 text-white font-semibold py-3 rounded-lg hover:bg-orange-600 transition duration-300 placeholder:text-black"
+            className="p-5 bg-[#E78B01] shadow-[0_8px_15px_rgba(234,152,15,0.3)] text-white font-semibold py-3  hover:bg-orange-600 transition duration-300 placeholder:text-black"
           >
             Submit Inquiry
           </button>

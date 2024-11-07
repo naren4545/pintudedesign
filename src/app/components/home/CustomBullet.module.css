@@ -14,11 +14,11 @@
     position: relative;
     margin-left: 35px;
    
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
-  line-height: 28.18px;
+  line-height: 32px;
   
-  
+  padding-bottom: 20px;
   }
   
  
@@ -26,21 +26,21 @@
     position: relative;
     margin-left: 35px;
    
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28.18px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42.18px;
   
   
   }
   
   .custombullet1 p::before {
     content: "";
-    background-image: url('../../assests/customBullet1p3.svg');
+    background-image: url('../../assests/ion_paper-plane-sharp.svg');
     position: absolute;
-    left: -32px;
+    left: -39px;
     top: 0;
-    width: 20px; 
-    height: 20px;  
+    width: 34px;
+    height: 27px; 
   }
   
 .custombullet2 p {

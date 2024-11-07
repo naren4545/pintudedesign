@@ -41,6 +41,8 @@ const Navbar = () => {
         <a href="#about" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">About us</a>
         <a href="#howitwork" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">How It Works</a> 
         <a href="#pricing" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">Pricing</a>
+        <a href="#faq" className="text-xl hover:text-gray-700 hover:border-b-2  hover:border-[#F6830E]">FAQ</a>
+
 </div>
         <div className='ml-3 hidden lg:block lg:text-right lg:w-[20%] w-full'> 
           <div className='h-[46px]'>

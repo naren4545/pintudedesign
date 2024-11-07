@@ -36,7 +36,7 @@ export default function Footer() {
            
 
             <FooterLogo/>
-<p className='pb-3 max-w-[368px] mx-auto lg:mx-0 '>our mission is to help businesses establish an 
+<p className='pb-3 max-w-[368px] mx-auto lg:mx-0 '>Our mission is to help businesses establish an 
 effortless online presence and connect with 
 customers in their local area.</p>
 

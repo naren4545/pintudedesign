@@ -5,7 +5,7 @@ import { FaQ } from 'react-icons/fa6'
 import FAQAccordion from './ui/FAQaccordian'
 export default function Section6() {
   return (
-    <section className="">
+    <section className="" id="faq">
       <div className="max-w-[1327px] mx-auto p-4 py-10  ">
 
       <h2 className="font-bold text-4xl text-center">Got Questions? We’ve Got Answers!</h2>

@@ -9,7 +9,7 @@ function Logo() {
         style={{
           position: "absolute",
           
-         
+          width: "260px"
          
         }}
         xmlns="http://www.w3.org/2000/svg"
