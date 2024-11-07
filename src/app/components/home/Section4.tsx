@@ -8,10 +8,7 @@ export default function Section4() {
           <h2 className="text-[40px] font-m font-bold text-center">
             Our Pricing
           </h2>
-          <div className="text-center">
-            {" "}
-            <span className="w-[348px] h-[2px] bg-[#F6830E] mx-auto inline-block my-4"></span>
-          </div>
+         
 
           <p className="text-2xl max-w-[928px] mx-auto font-m font-light text-center">
             The benefits of going digital with Pintude provide excellent value,
