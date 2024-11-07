@@ -24,10 +24,19 @@
 
 .animatemarquee {
   display: flex;
-  animation: marquee 30s linear infinite;
+  animation: marquee 24s linear infinite;
   will-change: transform;
 }
 
+
+.animatemarquee::after {
+content: "";
+position: absolute;
+width: 100px;
+height: 100px;
+bottom: 0;
+right:0;
+}
 .animatemarquee:hover {
   animation-play-state: paused;
 }
