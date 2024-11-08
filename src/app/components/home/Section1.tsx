@@ -5,7 +5,7 @@ import Image from "next/image";
 import style from './CustomBullet.module.css'
 export default function Section1() {
   return (
-    <section id="about">
+    <section id="about" className="py-10">
       <div className=" py-10 ">
 <h2 className="font-bold text-5xl center border-b-[4px] w-fit mx-auto  border-[#F6830E]">About Pintude</h2>
       
