@@ -35,7 +35,17 @@ p{
   margin-bottom: 15px;
 }
 
+.aboutImg{
+background-image: url("./assests//aboutBg1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
-
-
+}
+.aboutConbg{
+  background-image: url("./assests/Ellipse\ 120.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
