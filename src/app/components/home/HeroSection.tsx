@@ -29,8 +29,8 @@ HeroContent.displayName = 'HeroContent';
 export default function HeroSection() {
   return (
     <section
-      className='bg-[linear-gradient(180deg,#FFFFFF_82.34%,#13A8DA_107%)] lg:bg-[linear-gradient(180deg,#FFFFFF_8.34%,#13A8DA_100%)] border-2' 
-    >
+      className='bg-[linear-gradient(180deg,#FFFFFF_82.34%,#13A8DA_107%)] lg:bg-[linear-gradient(180deg,#FFFFFF_8.34%,#13A8DA_100%)]' >
+    
       <div className='max-w-[1327px] mx-auto p-4'>
         <div className='flex flex-col lg:flex-row'>
           <div className='lg:w-[60%] w-full lg:order-1 order-2'>
