@@ -1,5 +1,6 @@
 import React from "react";
 import img from '../../assests/rafiki.png'
+import img1 from '../../assests/pana.svg'
 import Image from "next/image";
 import style from './CustomBullet.module.css'
 export default function Section1() {
@@ -8,14 +9,14 @@ export default function Section1() {
       <div className=" py-10 ">
 <h2 className="font-bold text-5xl center border-b-[4px] w-fit mx-auto  border-[#F6830E]">About Pintude</h2>
       
-      <p className="text-center text-2xl font-light max-w-[837px] pt-5 mx-auto font-m">Pintude empowers local businesses to effortlessly build an online presence and connect 
+      <p className="text-center text-2xl font-light max-w-[837px] pb-10 pt-5 mx-auto font-m">Pintude empowers local businesses to effortlessly build an online presence and connect 
 with nearby customers. Our easy-to-use platform helps showcase products and 
 services without technical hassle or high costs.</p>
       <div className="  aboutImg py-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-[1327px] mx-auto ">
-  <div className=" p-4 flex items-center"><Image src={img} alt="about" className="invisible"/></div>
-  <div className=" col-span-1 lg:col-span-2 p-4 max-w-[759px] lg:ml-auto">
+  <div className=" p-4 flex items-center"><Image src={img1} alt="about" className="lg:invisible"/></div>
+  <div className=" col-span-1 lg:col-span-2 p-4 lg:max-w-[759px] lg:ml-auto mobBg">
     <h3 className=" font-semibold text-[#E78B01] font-r text-5xl py-5">Our Mission</h3>
   
     <div className={`${style.custombullet} font-r`}>
@@ -33,11 +34,11 @@ large budgets.</p>
   </div>
   </div>
 </div>
-
-
-<div className="grid grid-cols-1 lg:grid-cols-3 pt-10 gap-4">
+<div className="py-10"></div>
+<div className=" aboutImg2 py-10">
+<div className="grid grid-cols-1 lg:grid-cols-3 pt-10 gap-4  max-w-[1327px] mx-auto">
   
-  <div className=" col-span-1 lg:col-span-2 p-4 py-10 aboutConbg">
+  <div className=" col-span-1 lg:col-span-2 p-4 py-10 aboutConbg lg:max-w-[759px]">
     
 
 <h2 className="font-semibold text-[#E78B01] font-r text-5xl py-5">Our Core Values:</h2>
@@ -55,7 +56,7 @@ they need to thrive.</p></div>
   </div>
   <div className=" p-4"><Image src={img} alt="about"/></div>
 </div>
-
+</div>
       </div>
     </section>
   );

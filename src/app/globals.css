@@ -42,10 +42,37 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-.aboutConbg{
-  background-image: url("./assests/Ellipse\ 120.png");
+.aboutImg2{
+  background-image: url("./assests/about2ndImg.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+.mobBg{
+background-image: url("./assests/Ellipse\ 119.png");
+background-position: center;
+  background-repeat: no-repeat;
   background-size: contain;
+
 }
 
+@media screen and (max-width: 63.9375em) {
+  .mobBg{
+    background-image:  url("./assests/Ellipse\ 120.png");
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+   section .aboutImg{
+background-image: none;
+    }
+    .aboutConbg{
+      background-image: url("./assests/Ellipse\ 120.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+}
