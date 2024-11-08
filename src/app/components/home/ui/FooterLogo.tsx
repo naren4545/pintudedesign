@@ -7,9 +7,6 @@ function FooterLogo() {
         id="Layer_1"
         className=" mx-auto lg:mx-0"
         style={{
-         
-          
-         
           height: "130px",
         }}
         xmlns="http://www.w3.org/2000/svg"
@@ -53,9 +50,7 @@ function FooterLogo() {
             <stop offset="1" stop-color="#ff5e62" />
           </linearGradient>
         </defs>
-        <g className="cls-15">
-        
-        </g>
+        <g className="cls-15"></g>
         <g>
           <g>
             <path

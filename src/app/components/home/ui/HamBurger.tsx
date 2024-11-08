@@ -10,7 +10,7 @@ import {
   FaUser,
   FaSignOutAlt,
   FaNewspaper,
-  FaCog
+  FaCog,
 } from "react-icons/fa";
 
 import { usePathname } from "next/navigation";
@@ -19,10 +19,10 @@ import { usePathname } from "next/navigation";
 interface SidebarItemProps {
   label: string;
   linkTo: string;
-  onclick:()=>void; // Corrected from 'linlTo'
+  onclick: () => void; // Corrected from 'linlTo'
 }
 
-const SidebarItem = ({  label, linkTo, onclick }: SidebarItemProps) => {
+const SidebarItem = ({ label, linkTo, onclick }: SidebarItemProps) => {
   const pathname = usePathname();
   const isActive = pathname === linkTo;
   const style = isActive ? " bg-gray-200 text-black" : "";
@@ -35,7 +35,6 @@ const SidebarItem = ({  label, linkTo, onclick }: SidebarItemProps) => {
           style
         }
       >
-        
         <span>{label}</span>
       </div>
     </Link>
@@ -63,9 +62,9 @@ const Hamburger = () => {
           )}
         </button>
       </div>
-<div className={+ isOpen ?"bg-[#00000050] absolute w-full h-full  ":""}>
-
-</div>
+      <div
+        className={+isOpen ? "bg-[#00000050] absolute w-full h-full  " : ""}
+      ></div>
       <div
         className={`${
           isOpen ? "translate-x-[-16px]" : " translate-x-[-274px]"
@@ -73,28 +72,42 @@ const Hamburger = () => {
       >
         <div className="p-4">
           <div className="flex justify-between">
-           
-
             <button
               onClick={toggleSidebar}
               className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
             >
-              {isOpen ? (
-                <span/>
-              ) : (
-                <FaBars className="w-6 h-6 text-black" />
-              )}
+              {isOpen ? <span /> : <FaBars className="w-6 h-6 text-black" />}
             </button>
           </div>
           <nav className="pt-7">
-            <SidebarItem onclick={toggleSidebar}  label="Home" linkTo="" />
-            <SidebarItem onclick={toggleSidebar} label="About Us" linkTo="#about" />
-            <SidebarItem onclick={toggleSidebar} label="How It Works" linkTo="#howitwork" />
-           
-            <SidebarItem onclick={toggleSidebar} label="Pricing" linkTo="#pricing" />
+            <SidebarItem onclick={toggleSidebar} label="Home" linkTo="" />
+            <SidebarItem
+              onclick={toggleSidebar}
+              label="About Us"
+              linkTo="#about"
+            />
+            <SidebarItem
+              onclick={toggleSidebar}
+              label="How It Works"
+              linkTo="#howitwork"
+            />
+
+            <SidebarItem
+              onclick={toggleSidebar}
+              label="Pricing"
+              linkTo="#pricing"
+            />
             <SidebarItem onclick={toggleSidebar} label="FAQ" linkTo="#faq" />
 
-          <div className="pt-5"> <a href="tel:+91 82373 58619" className=" mt-5 text-xl bg-[#13A8DA] text-white px-6 py-4 rounded-[41px] hover:bg-gray-100 transition-colors">Business Login</a></div>  
+            <div className="pt-5">
+              {" "}
+              <a
+                href="tel:+91 82373 58619"
+                className=" mt-5 text-xl bg-[#13A8DA] text-white px-6 py-4 rounded-[41px] hover:bg-gray-100 transition-colors"
+              >
+                Business Login
+              </a>
+            </div>
           </nav>
         </div>
       </div>

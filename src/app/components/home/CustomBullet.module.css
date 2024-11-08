@@ -1,82 +1,68 @@
 .custombullet p::before {
-    content: "";
-    background-image: url('../../assests/bulletAroowd3.svg');
-    position: absolute;
-    left: -32px;
-    top: 0;
-    width: 25px; /* Updated width */
-    height: 25px; /* Updated height */
-  }
-  
-  
-  
-  .custombullet p {
-    position: relative;
-    margin-left: 35px;
-   
+  content: "";
+  background-image: url("../../assests/bulletAroowd3.svg");
+  position: absolute;
+  left: -32px;
+  top: 0;
+  width: 25px; /* Updated width */
+  height: 25px; /* Updated height */
+}
+
+.custombullet p {
+  position: relative;
+  margin-left: 35px;
+
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
-  
+
   padding-bottom: 20px;
-  }
-  
- 
-  .custombullet1 p {
-    position: relative;
-    margin-left: 35px;
-   
+}
+
+.custombullet1 p {
+  position: relative;
+  margin-left: 35px;
+
   font-size: 28px;
   font-weight: 500;
   line-height: 42.18px;
-  
-  
-  }
-  
-  .custombullet1 p::before {
-    content: "";
-    background-image: url('../../assests/ion_paper-plane-sharp.svg');
-    position: absolute;
-    left: -39px;
-    top: 0;
-    width: 34px;
-    height: 27px; 
-  }
-  
+}
+
+.custombullet1 p::before {
+  content: "";
+  background-image: url("../../assests/ion_paper-plane-sharp.svg");
+  position: absolute;
+  left: -39px;
+  top: 0;
+  width: 34px;
+  height: 27px;
+}
+
 .custombullet2 p {
-    position: relative;
-    margin-left: 25px;
-   
+  position: relative;
+  margin-left: 25px;
+
   font-size: 20px;
   font-weight: 400;
   line-height: 28.18px;
-  
-  
-  }
-  
-  .custombullet2 p::before {
-    content: "";
-    background-image: url('../../assests/custombullet3p3.svg');
-    position: absolute;
-    left: -28px;
-    top: 8px;
-    width: 14px; /* Updated width */
-    height: 14px; /* Updated height */
-  }
+}
 
+.custombullet2 p::before {
+  content: "";
+  background-image: url("../../assests/custombullet3p3.svg");
+  position: absolute;
+  left: -28px;
+  top: 8px;
+  width: 14px; /* Updated width */
+  height: 14px; /* Updated height */
+}
 
-  .bgblueimg{
+.bgblueimg {
+  background-image: url("../../assests/bluebgp3.png");
+}
 
-    background-image: url('../../assests/bluebgp3.png');
-  }
-  
-  
-  
-  
-  @media screen and (max-width: 63.9375em) {
-  
-   /* .herosec {
+@media screen and (max-width: 63.9375em) {
+  /* .herosec {
     background: linear-gradient(180deg, #FFFFFF 82.34%, #13A8DA 107%)!important;
   } */
-  
-  }
+}

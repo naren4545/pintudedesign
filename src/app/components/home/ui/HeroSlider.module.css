@@ -1,17 +1,16 @@
 @keyframes marquee {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0);
   }
-  
-  .animatemarquee {
-    display: flex;
-    animation: marquee 20s linear infinite;
-  
-  }/* HeroSlider.module.css */
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animatemarquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+} /* HeroSlider.module.css */
 
 @keyframes marquee {
   from {
@@ -28,14 +27,13 @@
   will-change: transform;
 }
 
-
 .animatemarquee::after {
-content: "";
-position: absolute;
-width: 100px;
-height: 100px;
-bottom: 0;
-right:0;
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
 }
 .animatemarquee:hover {
   animation-play-state: paused;

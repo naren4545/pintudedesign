@@ -8,9 +8,8 @@ function Logo() {
         className="top-0 p-3 lg:left-0 left-[50%] lg:h-[130px] h-[87px]  transform -translate-x-1/2 lg:-translate-x-0"
         style={{
           position: "absolute",
-          
-          width: "260px"
-         
+
+          width: "260px",
         }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 616.665 227.5057"
@@ -53,9 +52,7 @@ function Logo() {
             <stop offset="1" stop-color="#ff5e62" />
           </linearGradient>
         </defs>
-        <g className="cls-15">
-        
-        </g>
+        <g className="cls-15"></g>
         <g>
           <g>
             <path

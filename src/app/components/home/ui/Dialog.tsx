@@ -1,16 +1,22 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import qr from "../../../assests/qr.png";
-import { createPortal } from "react-dom";
+// import { createPortal } from "react-dom";
 interface CustomSectionProps {
- isOpen: boolean; // Define prop types
- onClose:() => void
+  isOpen: boolean; // Define prop types
+  onClose: () => void;
 }
 
 const Dialog: React.FC<CustomSectionProps> = ({ isOpen, onClose }) => {
   return (
-    <div className={isOpen ? "fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-[1000]" : ""}>
+    <div
+      className={
+        isOpen
+          ? "fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-[1000]"
+          : ""
+      }
+    >
       <dialog open={isOpen} className="dialogn p-6 rounded-2xl max-w-[500px] ">
         <div className="dialog-header text-right">
           <button onClick={onClose} className="close-button">
@@ -29,6 +35,6 @@ const Dialog: React.FC<CustomSectionProps> = ({ isOpen, onClose }) => {
       </dialog>
     </div>
   );
-}
+};
 
-export default Dialog
+export default Dialog;

@@ -1,50 +1,41 @@
+.aboutImg {
+  background-image: url("../../assests/aboutBg1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutImg2 {
+  background-image: url("../../assests/about2ndImg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.aboutImg{
-    background-image: url("../../assests/aboutBg1.svg");
+.mobBg {
+  background-image: url("../../assests/Ellipse\ 119.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 63.9375em) {
+  .mobBg {
+    background-image: url("../../assests/Ellipse\ 120.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    }
-    .aboutImg2{
-      background-image: url("../../assests/about2ndImg.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-      }
-    
-    .mobBg{
-    background-image: url("../../assests/Ellipse\ 119.png");
-    background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-    
-    }
-    
-    @media screen and (max-width: 63.9375em) {
-      .mobBg{
-        background-image:  url("../../assests/Ellipse\ 120.png");
-        background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        
-        }
-       section .aboutImg{
+  }
+  section .aboutImg {
     background-image: none;
-        }
+  }
 
-
-
-
-        section  .aboutImg2{
-            background-image:none;
-            
-            }
-        .aboutConbg{
-            background-image:  url("../../assests/Ellipse\ 120.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-          }
-    }
+  section .aboutImg2 {
+    background-image: none;
+  }
+  .aboutConbg {
+    background-image: url("../../assests/Ellipse\ 120.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
