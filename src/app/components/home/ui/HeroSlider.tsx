@@ -22,6 +22,12 @@ const HeroSlider: React.FC = () => {
               src={image}
               alt={`Feature ${index + 1}`}
               className="w-full h-full object-cover"
+              width={600} // Optimized from 1000 to actual display size
+              height={600} // Optimized from 1000 to actual display size
+              priority={true}
+              quality={85} // Slightly reduced quality for better performance
+              placeholder="blur" // Add blur-up placeholder
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAABJRU5ErkJggg==" // Custom blur-up placeholder
             />
           </div>
         ))}
