@@ -3,6 +3,8 @@ import img from '../../assests/rafiki.png'
 import img1 from '../../assests/pana.svg'
 import Image from "next/image";
 import style from './CustomBullet.module.css'
+import style2 from './Section1.module.css'
+
 export default function Section1() {
   return (
     <section id="about" className="py-10">
@@ -12,11 +14,11 @@ export default function Section1() {
       <p className="text-center text-2xl font-light max-w-[837px] pb-10 pt-5 mx-auto font-m">Pintude empowers local businesses to effortlessly build an online presence and connect 
 with nearby customers. Our easy-to-use platform helps showcase products and 
 services without technical hassle or high costs.</p>
-      <div className="  aboutImg py-10">
+      <div className={"  pb-10 "+style2.aboutImg}>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-[1327px] mx-auto ">
   <div className=" p-4 flex items-center"><Image src={img1} alt="about" className="lg:invisible"/></div>
-  <div className=" col-span-1 lg:col-span-2 p-4 lg:max-w-[759px] lg:ml-auto mobBg">
+  <div className={" col-span-1 lg:col-span-2 p-4 lg:max-w-[759px] lg:ml-auto " +style2.mobBg}>
     <h3 className=" font-semibold text-[#E78B01] font-r text-5xl py-5">Our Mission</h3>
   
     <div className={`${style.custombullet} font-r`}>
@@ -35,10 +37,10 @@ large budgets.</p>
   </div>
 </div>
 <div className="py-10"></div>
-<div className=" aboutImg2 py-10">
+<div className={"  py-10 " + style2.aboutImg2}>
 <div className="grid grid-cols-1 lg:grid-cols-3 pt-10 gap-4  max-w-[1327px] mx-auto">
   
-  <div className=" col-span-1 lg:col-span-2 p-4 py-10 aboutConbg lg:max-w-[759px]">
+  <div className={" col-span-1 lg:col-span-2 p-4 py-10  lg:max-w-[759px] " +style2.aboutConbg}>
     
 
 <h2 className="font-semibold text-[#E78B01] font-r text-5xl py-5">Our Core Values:</h2>
@@ -54,7 +56,7 @@ their local community.</p>
 <p><span className="font-bold">Growth Support:</span>  Equipping businesses with the tools 
 they need to thrive.</p></div>
   </div>
-  <div className=" p-4"><Image src={img} alt="about"/></div>
+  <div className=" p-4"><Image src={img} className="lg:invisible" alt="about"/></div>
 </div>
 </div>
       </div>
