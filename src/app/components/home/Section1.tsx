@@ -2,11 +2,11 @@ import Image from "next/image";
 import aboutImage1 from "../../assests/pana.svg";
 import aboutImage2 from "../../assests/rafiki.png";
 import styles from "./Section1.module.css";
-
+import styles2 from './CustomBullet.module.css'
 export default function Section1() {
   return (
     <section id="about" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className=" mx-auto ">
         <h2 className="font-bold text-5xl text-center border-b-4 border-[#F6830E] w-fit mx-auto mb-5">
           About Pintude
         </h2>
@@ -15,14 +15,14 @@ export default function Section1() {
           Pintude empowers local businesses to effortlessly build an online presence and connect with nearby customers. Our easy-to-use platform helps showcase products and services without technical hassle or high costs.
         </p>
 
-        <div className={`mb-20 ${styles.aboutImg}`}>
-          <div className="grid lg:grid-cols-3 gap-8 items-center">
+        <div className={`lg:mb-20 mb-10 ${styles.aboutImg}`} py-10>
+          <div className="grid lg:grid-cols-3 gap-8 items-center px-3 py-10 max-w-[1327px] mx-auto">
             <div className="lg:col-span-1">
               <Image src={aboutImage1} alt="About Pintude" className="w-full lg:hidden" />
             </div>
-            <div className={`lg:col-span-2 lg:ml-auto lg:max-w-3xl ${styles.mobBg}`}>
+            <div className={`lg:col-span-2 lg:ml-auto lg:max-w-3xl lg:py-20  py-10 ${styles.mobBg}`}>
               <h3 className="font-semibold text-[#E78B01] text-5xl mb-6">Our Mission</h3>
-              <ul className={`${styles.customBullet} space-y-4`}>
+              <ul className={`${styles.custombullet} space-y-4`}>
                 {[
                   "Empower businesses to establish an effortless online presence.",
                   "Make it easy for businesses to connect with local customers.",
@@ -36,11 +36,11 @@ export default function Section1() {
           </div>
         </div>
 
-        <div className={`py-20 ${styles.aboutImg2}`}>
-          <div className="grid lg:grid-cols-3 gap-8 items-center">
-            <div className={`lg:col-span-2 lg:max-w-3xl ${styles.aboutConbg}`}>
+        <div className={`lg:py-20 py-10 ${styles.aboutImg2}`}>
+          <div className="grid lg:grid-cols-3 gap-8 items-center max-w-[1327px] py-10 px-3 mx-auto">
+            <div className={`lg:col-span-2 lg:max-w-3xl  py-10 ${styles.aboutConbg}`}>
               <h2 className="font-semibold text-[#E78B01] text-5xl mb-6">Our Core Values:</h2>
-              <ul className={`${styles.customBullet} space-y-4`}>
+              <ul className={`${styles.custombullet} space-y-4`}>
                 {[
                   { title: "Accessibility", description: "Technology should be easy to use for everyone." },
                   { title: "Affordability", description: "A one-time fee ensures cost-effectiveness for all businesses." },
