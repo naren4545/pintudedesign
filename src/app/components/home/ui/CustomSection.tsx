@@ -16,7 +16,7 @@ const CustomSection: React.FC<CustomSectionProps> = ({
   return (
     <div className="py-4 ">
       <div
-        className={`flex bg-[#F1F8FA] rounded-lg flex-col md:flex-row items-center gap-4 p-4 max-w-[900px]  ${
+        className={`flex bg-[#F1F8FA] rounded-xl flex-col md:flex-row items-center gap-4 p-4 max-w-[900px]  ${
           opp ? "lg:ml-auto " : "lg:mr-auto"
         } `}
       >
