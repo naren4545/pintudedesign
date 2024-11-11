@@ -50,15 +50,14 @@ const Hamburger = () => {
 
   return (
     <div className="flex  lg:hidden">
-      <div className={`lg:hidden p-2 absolute z-30 right-4 top-[50px] transform -translate-y-1/2 ${isOpen ?"fixed top-5 right-4 z-30 px-4":""}`}>
+      <div className={`lg:hidden p-2  z-30 right-4 top-[50px] transform -translate-y-1/2 ${isOpen ?"fixed right-4 z-30 px-4":"absolute"}`}>
         <button
           onClick={toggleSidebar}
           aria-label="Close menu"
           className="text-black hover:text-white focus:outline-none focus:text-white"
         >
           {isOpen ? (
-            <FaTimes className="w-6 h-6 text-black absolute top-[-4px] pr-3" />
-          ) : (
+""          ) : (
             <FaBars className="w-6 h-6 text-black" />
           )}
         </button>
@@ -72,15 +71,16 @@ const Hamburger = () => {
         } lg:translate-x-0 px-4 bg-white right-0 hamburger transition-transform transform  fixed  w-64 h-full min-h-screen z-10 md:z-auto top-0 shadow-lg`}
       >
         <div className="p-4">
-          <div className="flex justify-between">
+          <div className="text-right pt-3">
             <button
               onClick={toggleSidebar}
               className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
             >
-              {isOpen ? <span /> : <FaBars className="w-6 h-6 text-black" />}
+              {isOpen ?             <FaTimes className="w-6 h-6 text-black pr-3" />
+: <FaBars className="w-6 h-6 text-black" />}
             </button>
           </div>
-          <nav className="pt-7">
+          <nav className="pt-2">
             <SidebarItem onclick={toggleSidebar} label="Home" linkTo="" />
             <SidebarItem
               onclick={toggleSidebar}
