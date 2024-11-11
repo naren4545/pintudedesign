@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav className="flex flex-col lg:flex-row lg:justify-between justify-center items-center p-4 bg-white ">
           {/* Logo Section */}
 
-          <div className="lg:w-[25%] flex h-[146px]  items-end justify-center lg:justify-start w-full space-x-2  relative">
+          <div className="lg:w-[25%] flex h-[146px]  items-end justify-center lg:justify-start w-full lmd:space-x-2  relative">
             <Image src={logo} alt="Pintude Logo" className="hidden" />{" "}
             {/* Replace with your logo */}
             <Logo />
