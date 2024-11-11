@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "../../assests/heroImgp3.svg";
+import hero from "../../assests/Group 492.png";
 import React, { memo } from "react";
 import dynamic from "next/dynamic";
 
