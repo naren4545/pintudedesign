@@ -89,6 +89,7 @@ export default function Footer() {
             <div className="flex">
               <a
                 href="https://www.linkedin.com/company/pintude/about/"
+                aria-label="PinTude LinkedIn"
                 target="_blank"
                 className="mr-3"
               >
@@ -155,6 +156,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/sharer/sharer.php?u=https://hellopintude.com?utm_source=facebook&utm_medium=social&utm_campaign=pre_launch"
                 target="_blank"
+                 aria-label="PinTude Facebook"
                 className="mr-3"
               >
                 <svg
@@ -220,6 +222,7 @@ export default function Footer() {
               <a
                 href="https://twitter.com/intent/tweet?url=https://hellopintude.com?utm_source=twitter&utm_medium=social&utm_campaign=pre_launch&text=Check+out+PinTude!+Join+the+pre-launch+now!"
                 target="_blank"
+                 aria-label="PinTude Twitter"
                 className="mr-3"
               >
                 <svg
@@ -286,6 +289,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/?url=https://hellopintude.com?utm_source=instagram&utm_medium=social&utm_campaign=pre_launch"
                 target="_blank"
+                 aria-label="PinTude Instagram"
                 className="mr-3"
               >
                 <svg

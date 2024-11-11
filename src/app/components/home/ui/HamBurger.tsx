@@ -53,6 +53,7 @@ const Hamburger = () => {
       <div className="lg:hidden p-4 absolute z-30  top-[50px] transform -translate-y-1/2">
         <button
           onClick={toggleSidebar}
+          aria-label="Close menu"
           className="text-black hover:text-white focus:outline-none focus:text-white"
         >
           {isOpen ? (
