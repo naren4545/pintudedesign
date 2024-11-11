@@ -35,7 +35,7 @@ const CustomSection: React.FC<CustomSectionProps> = ({
             opp ? "lg:order-1 lg:pl-6  pl-0 order-2 " : ""
           }`}
         >
-          <h2 className="text-2xl font-bold">{heading}</h2>
+          <h2 className="text-[32px] leading-[48px] font-semibold">{heading}</h2>
           <p className="mt-2 text-xl ">{para}</p>
         </div>
       </div>

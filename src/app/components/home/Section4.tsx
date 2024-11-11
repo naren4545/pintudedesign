@@ -5,11 +5,11 @@ export default function Section4() {
     <section id="pricing" className="py-10">
       <div className=" bg-[#13A8DA] text-white py-10">
         <div className="max-w-[1327px] mx-auto">
-          <h2 className="text-[40px] font-m font-bold text-center">
+          <h2 className="text-5xl font-m font-bold text-center mb-3">
             Our Pricing
           </h2>
 
-          <p className="text-2xl max-w-[928px] mx-auto font-m font-light text-center">
+          <p className="text-2xl pb-4 max-w-[928px] mx-auto font-m font-light text-center">
             The benefits of going digital with Pintude provide excellent value,
             empowering businesses to grow and succeed in the digital space.
           </p>

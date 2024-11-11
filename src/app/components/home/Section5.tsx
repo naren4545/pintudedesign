@@ -6,7 +6,7 @@ export default function Section5() {
   return (
     <section className={style.bgblueimg}>
       <div className="max-w-[1327px] mx-auto p-4 py-10 text-white ">
-        <h2 className="text-5xl font-bold text-center">
+        <h2 className="text-5xl font-bold text-center mb-3">
           Get in Touch with Us!
         </h2>
         <p className="max-w-[900px] mx-auto text-center pb-10">

@@ -22,7 +22,7 @@ export default function Section1() {
             </div>
             <div className={`lg:col-span-2 lg:ml-auto lg:max-w-3xl lg:py-20  py-10 ${styles.mobBg}`}>
               <h3 className="font-semibold text-[#E78B01] text-5xl mb-6">Our Mission</h3>
-              <ul className={`${styles.custombullet} space-y-4`}>
+              <ul className={`${styles.custombullet} space-y-4 font-r`}>
                 {[
                   "Empower businesses to establish an effortless online presence.",
                   "Make it easy for businesses to connect with local customers.",
@@ -40,7 +40,7 @@ export default function Section1() {
           <div className="grid lg:grid-cols-3 gap-8 items-center max-w-[1327px] py-10 px-3 mx-auto">
             <div className={`lg:col-span-2 lg:max-w-3xl  py-10 ${styles.aboutConbg}`}>
               <h2 className="font-semibold text-[#E78B01] text-5xl mb-6">Our Core Values:</h2>
-              <ul className={`${styles.custombullet} space-y-4`}>
+              <ul className={`${styles.custombullet} space-y-4 font-r`}>
                 {[
                   { title: "Accessibility", description: "Technology should be easy to use for everyone." },
                   { title: "Affordability", description: "A one-time fee ensures cost-effectiveness for all businesses." },

@@ -9,13 +9,20 @@ import {
 const FAQAccordion = () => {
   const faqs = [
     {
-      question: "What form of payments are accepted at Pintude?",
+      question: "What is included in the annual subscription?",
       answer:
-        "Pintude only accepts UPI payments. All major UPI payment is accepted for a seamless and quick transaction experience.",
+        `The annual subscription includes various benefits such as 
+Personalized Business Page with all of your business information- contact info, operating hours, services, and images available at your business webpage. 
+
+
+You can also use Pintude's platform to connect directly with your audience, share promotions, updates, and news via broadcasts.`,
     },
     {
-      question: "What is included in the annual subscription?",
-      answer: "The annual subscription includes various benefits such as XYZ.",
+      question: "How do I get my business verified?",
+      answer: `We have double verification for all businesses who signup with PinTude.
+First verification requires submission of business credentials such as GST Certificate , UDYAM etc. 
+
+The second verification is based on location of the business that is operated and processing through our system. You have to be present at the location of your business for the location verification.`,
     },
     {
       question: "Can I update my business information after signing up?",
@@ -39,7 +46,7 @@ const FAQAccordion = () => {
             className="mb-2 rounded-[23px] border border-[#c6e7f4] bg-[#f5fcfe] px-2"
           >
             <AccordionTrigger className="hover:no-underline">
-              <div className="flex items-center">
+              <div className="flex ">
                 <span className="font-bold text-2xl text-gray-700 pr-4">
                   {String(index + 1).padStart(2, "0")}
                 </span>

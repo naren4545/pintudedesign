@@ -11,8 +11,8 @@ export default function Section2() {
       <div className="h-1/2 bg-white w-full absolute bottom-0 left-0 -z-10"></div>
 
       <div className="max-w-[1327px] mx-auto p-4 py-10 ">
-        <div className="text-center font-m text-white max-w-[825px] mx-auto">
-          <h2 className="text-4xl font-bold">How It Works</h2>
+        <div className="text-center font-m text-white max-w-[825px] mx-auto pb-10">
+          <h2 className="text-5xl font-bold">How It Works</h2>
           <p className="text-2xl font-light">
             Setting up your business on Pintude is quick and hassle-free. Follow
             these simple steps to start building your online presence today!

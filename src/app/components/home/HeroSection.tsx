@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "../../assests/heroImgp3.png";
+import hero from "../../assests/heroImgp3.svg";
 import React, { memo } from "react";
 import dynamic from "next/dynamic";
 
@@ -10,7 +10,7 @@ const HeroSlider = dynamic(() => import("./ui/HeroSlider"), {
 
 // Memoize the hero content to prevent unnecessary re-renders
 const HeroContent = memo(() => (
-  <div className="hero-content max-w-[724px]">
+  <div className="hero-content max-w-[734px]">
     <h1 className="font-m pt-6 text-[40px] leading-[50px] font-bold mb-5 text-[#F6830E]">
       Your Local Business, <br />
       Digitally Connected

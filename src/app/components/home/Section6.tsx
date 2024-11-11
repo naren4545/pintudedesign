@@ -7,7 +7,7 @@ export default function Section6() {
   return (
     <section className="" id="faq">
       <div className="max-w-[1327px] mx-auto p-4 py-10  ">
-        <h2 className="font-bold text-4xl text-center">
+        <h2 className="font-bold text-5xl text-center mb-3">
           Got Questions? We’ve Got Answers!
         </h2>
         <p className="max-w-[772px] font-normal mx-auto text-2xl text-center mb-5">
