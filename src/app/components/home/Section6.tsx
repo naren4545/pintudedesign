@@ -16,7 +16,7 @@ export default function Section6() {
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className=" p-4">
-            <Image src={img} alt="about" />
+            <Image loading="lazy" layout="responsive" objectFit="cover" objectPosition="center" width={960} height={340}  src={img} alt="about" />
           </div>
           <div className=" col-span-1 lg:col-span-2 p-4">
             <FAQAccordion />

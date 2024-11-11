@@ -11,7 +11,7 @@ export default function Section7() {
         </h2>
         <div className="flex flex-col lg:flex-row items-center  mx-auto">
           <div className="w-full lg:w-1/2 p-4 ">
-            <Image src={img} alt="iphone" />
+            <Image loading="lazy" layout="responsive" objectFit="cover" objectPosition="center" width={960} height={340} src={img} alt="iphone" />
           </div>
 
           <div className="w-full lg:w-1/2 p-4 text-center">

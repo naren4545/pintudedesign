@@ -18,7 +18,7 @@ export default function Section1() {
         <div className={`lg:mb-20 mb-10 ${styles.aboutImg}`} py-10>
           <div className="grid lg:grid-cols-3 gap-8 items-center px-3 py-10 max-w-[1327px] mx-auto">
             <div className="lg:col-span-1">
-              <Image src={aboutImage1} alt="About Pintude" className="w-full lg:hidden" />
+              <Image loading="lazy" layout="responsive" objectFit="cover" objectPosition="center" width={960} height={340} src={aboutImage1} alt="About Pintude" className="w-full lg:hidden" />
             </div>
             <div className={`lg:col-span-2 lg:ml-auto lg:max-w-3xl lg:py-20  py-10 ${styles.mobBg}`}>
               <h3 className="font-semibold text-[#E78B01] text-5xl mb-6">Our Mission</h3>
@@ -54,7 +54,7 @@ export default function Section1() {
               </ul>
             </div>
             <div className="lg:col-span-1">
-              <Image src={aboutImage2} alt="Core Values" className="w-full lg:hidden" />
+              <Image loading="lazy" layout="responsive" objectFit="cover" objectPosition="center" width={960} height={340} src={aboutImage2} alt="Core Values" className="w-full lg:hidden" />
             </div>
           </div>
         </div>

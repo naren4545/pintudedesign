@@ -12,7 +12,7 @@ const HowItWorksCards: React.FC<HowItWorksCardsProps> = ({
 }) => {
   return (
     <div className="relative shadow-xl h-full rounded-xl bg-white px-5 py-6 text-center">
-      <img src={iconSrc} className="mx-auto pt-5" alt="icon" />
+      <img loading="lazy" src={iconSrc} className="mx-auto pt-5" alt="icon" />
       {children}
     </div>
   );

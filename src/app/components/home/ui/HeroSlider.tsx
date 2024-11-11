@@ -27,6 +27,7 @@ const HeroSlider: React.FC = () => {
               priority={true}
               quality={85} // Slightly reduced quality for better performance
               placeholder="blur" // Add blur-up placeholder
+              
               blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAABJRU5ErkJggg==" // Custom blur-up placeholder
             />
           </div>
