@@ -144,10 +144,10 @@ export default function Section5() {
                 Email Address
                 <br></br>
                 <a
-                  href="mailto:social@pintude.co.in"
+                  href="mailto:support@pintude.biz"
                   className="text-2xl font-semibold text-white"
                 >
-                  social@pintude.co.in
+                  support@pintude.biz
                 </a>
               </p>
             </div>
