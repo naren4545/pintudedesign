@@ -72,13 +72,16 @@ const Hamburger = () => {
       >
         <div className="p-4">
           <div className="text-right pt-3">
+            <div>
             <button
               onClick={toggleSidebar}
-              className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
+              className="text-gray-300 hover:text-white focus:outline-none focus:text-white p-3"
             >
-              {isOpen ?             <FaTimes className="w-6 h-6 text-black pr-3" />
+              {isOpen ?             <FaTimes className="w-8 h-8 text-black pr-3" />
 : <FaBars className="w-6 h-6 text-black" />}
+
             </button>
+            </div>
           </div>
           <nav className="pt-2">
             <SidebarItem onclick={toggleSidebar} label="Home" linkTo="" />
