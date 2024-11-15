@@ -4,7 +4,7 @@ import PopUPButton from "./ui/PopUPButton";
 import style from "./CustomBullet.module.css";
 export default function Section5() {
   return (
-    <section className={style.bgblueimg}>
+    <section className={style.bgblueimg} id="contact">
       <div className="max-w-[1327px] mx-auto p-4 py-10 text-white ">
         <h2 className="text-5xl font-bold text-center mb-3">
           Get in Touch with Us!

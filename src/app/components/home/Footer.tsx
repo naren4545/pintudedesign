@@ -41,22 +41,22 @@ export default function Footer() {
             <h3 className=" text-xl font-semibold  mb-5">Quick Links</h3>
             <ul className="space-y-1 text-base font-light footer-ul">
               <li>
-                <a href="#" className=" ">
+                <a href="#about" className=" ">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className=" ">
+                <a href="#howitwork" className=" ">
                   How It Works
                 </a>
               </li>
               <li>
-                <a href="#" className=" ">
+                <a href="#pricing" className=" ">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className=" ">
+                <a href="#contact" className=" ">
                   Contact{" "}
                 </a>
               </li>
@@ -67,7 +67,7 @@ export default function Footer() {
             <h3 className=" text-xl font-semibold  mb-5">Resources</h3>
             <ul className="space-y-1 text-base font-light footer-ul">
               <li>
-                <a href="#" className=" ">
+                <a href="" className=" ">
                   Support
                 </a>
               </li>
