@@ -56,7 +56,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#contact" className=" ">
+                <a href="#" className=" ">
                   Contact{" "}
                 </a>
               </li>
